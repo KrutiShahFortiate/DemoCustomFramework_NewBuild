@@ -1,6 +1,9 @@
-public struct DemoCustomFramework {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public struct SDK {
+    
+    public static func doSomeWork() {
+        print("Doing some work...")
     }
+    
 }
